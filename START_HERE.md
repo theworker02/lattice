@@ -18,7 +18,7 @@ The Observatory explains what happened
 
 ## What you can try right now
 
-When the repository is running locally, open the [Mirrorfield portal](mirrorfield.html). The Signal Cube demonstration lets you select a simulated light, temperature, or vibration input; smooth it; apply a threshold; and watch a local monitor or recorder receive the resulting message. It is working local software, but it is not connected to real hardware.
+When the repository is running locally, open the [Mirrorfield portal](mirrorfield.html). The published portal is available at [the GitHub Pages site](https://theworker02.github.io/lattice/). The Signal Cube demonstration lets you select a simulated light, temperature, or vibration input; smooth it; apply a threshold; and watch a local monitor or recorder receive the resulting message. It is working local software, but it is not connected to real hardware.
 
 The original [Patchboard](index.html) is another local simulator. It lets you wire virtual sensing, logic, energy and motor blocks together.
 

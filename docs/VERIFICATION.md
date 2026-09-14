@@ -52,10 +52,6 @@ The Start Here guide, manufacturer onboarding guide, glossary and contribution g
 
 The two new SVG diagrams parse as XML and are served as local assets. The expanded anatomy and SolarSkin section are browser-rendered portal content; browser visual interaction remains unverified. No optical material or PV claim is verified by these diagrams.
 
-## Cloudflare Workers preparation — 2026-09-13
+## GitHub Pages preparation — 2026-09-13
 
-The static bundle build and Worker module are validated locally. A Cloudflare dry-run or deployment is intentionally not performed because it requires the project owner’s Cloudflare account and chooses external deployment state.
-
-## Cloudflare release readiness — 2026-09-13
-
-The automated Worker tests cover root routing, normal assets, cache policy, security headers, HEAD and rejected non-read methods with a local asset binding mock. They do not validate a Cloudflare account, Worker name, domain, dashboard configuration or external deployment.
+The static Pages artifact is validated locally. GitHub Pages enablement and an external deployment are intentionally not performed because they require a repository administrator to choose the GitHub Pages publishing setting.

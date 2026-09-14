@@ -8,7 +8,7 @@ The mirrored-facet symbol is the official LATTICE mark. It represents multiple r
 | `lattice-wordmark.svg` | README, landing pages, presentations and partner documents |
 | `lattice-wordmark-github.svg` | GitHub README and light-background documents |
 | `lattice-mark-mono.svg` | One-color engraving, print, embroidery or constrained production marking |
-| `favicon.svg` | Browser tab and Cloudflare-hosted portal icon |
+| `favicon.svg` | Browser tab and GitHub Pages portal icon |
 
 ## Use
 
@@ -18,4 +18,4 @@ The mirrored-facet symbol is the official LATTICE mark. It represents multiple r
 - Keep the wordmark text readable; do not replace the descriptor with unapproved claims.
 - Do not stretch, rotate, outline, add glow effects to, or place the mark over busy imagery.
 
-The portal’s existing `design/identity/symbol.svg` uses the same mirrored-facet geometry. The `brand/` folder is the reusable package-facing location and is included in the Cloudflare asset bundle.
+The portal’s existing `design/identity/symbol.svg` uses the same mirrored-facet geometry. The `brand/` folder is the reusable package-facing location and is included in the GitHub Pages artifact.

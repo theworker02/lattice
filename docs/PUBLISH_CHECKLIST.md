@@ -1,6 +1,6 @@
 # Public deployment checklist
 
-Use this checklist immediately before a Cloudflare Workers publish. It is intentionally small: this deployment is a public static portal, not a cloud control system.
+Use this checklist immediately before a GitHub Pages publish. It is intentionally small: this deployment is a public static portal, not a cloud control system.
 
 ## Review the public message
 
@@ -12,25 +12,25 @@ Use this checklist immediately before a Cloudflare Workers publish. It is intent
 
 - [ ] Run `node --test tests/*.test.mjs`.
 - [ ] Run `python tools/verify-artifacts.py`.
-- [ ] Run `node tools/build-cloudflare.mjs`.
+- [ ] Run `node tools/build-github-pages.mjs`.
 - [ ] Inspect `dist/`: it contains only public portal assets and documents.
 - [ ] Confirm `dist/` does not contain `.env`, local storage, Node dependencies, tests, tooling, worker source, vendor-private material or secrets.
 
-## Cloudflare account and domain
+## GitHub repository and Pages
 
-- [ ] Confirm the account and person authorized to publish.
-- [ ] Confirm the Worker name in `wrangler.jsonc` and final Workers.dev/custom domain routing.
-- [ ] Run `npx wrangler deploy --dry-run` and resolve configuration errors before a publish.
-- [ ] Do not add secrets, databases, analytics or bindings merely to deploy the static portal.
+- [ ] Confirm the repository administrator has selected **GitHub Actions** in **Settings → Pages**.
+- [ ] Confirm the final Pages address is `https://theworker02.github.io/lattice/` or an intentionally configured custom domain.
+- [ ] Review the `Deploy GitHub Pages` Actions workflow before the first deployment.
+- [ ] Do not add secrets, databases, analytics or backend services merely to publish the static portal.
 
 ## Publish and smoke check
 
-- [ ] Run `npx wrangler deploy` only after the review above.
-- [ ] Open `/`, `/mirrorfield.html`, `/index.html`, `/START_HERE.md` and one diagram URL.
+- [ ] Push the reviewed commit to `main`, or manually run the `Deploy GitHub Pages` workflow.
+- [ ] Open `/`, `/mirrorfield.html`, `/patchboard.html`, `/START_HERE.md` and one diagram URL.
 - [ ] Verify the browser console has no blocked essential asset and local simulator controls still work.
 - [ ] Confirm a missing URL returns the public 404 page.
 - [ ] Confirm exported browser-local data stays on the browser and is not sent to a service.
 
 ## If something is wrong
 
-Use the Cloudflare dashboard or `wrangler versions` / rollback workflow with the account owner. Record what was changed, return the public site to the previous known-good version, then correct the source and repeat the checklist. Do not patch production by adding secrets or bypassing the Worker headers.
+Use the GitHub Actions deployment history with the repository administrator. Record what was changed, revert to the previous known-good Git commit, push it to `main`, then let Pages publish that revision. Do not patch production by adding secrets or a backend to bypass the static-site design.

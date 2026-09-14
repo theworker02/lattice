@@ -4,9 +4,9 @@
 
 <p align="center">
   <a href="docs/STATUS.md"><img src="https://img.shields.io/badge/status-simulated-516f82?style=flat-square" alt="Status: simulated"></a>
-  <a href="docs/VERIFICATION.md"><img src="https://img.shields.io/badge/tests-47%20passing-2f7a6f?style=flat-square" alt="47 tests passing"></a>
+  <a href="docs/VERIFICATION.md"><img src="https://img.shields.io/badge/tests-44%20passing-2f7a6f?style=flat-square" alt="44 tests passing"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-5865a8?style=flat-square" alt="License: MIT"></a>
-  <a href="docs/CLOUDFLARE_WORKERS.md"><img src="https://img.shields.io/badge/Cloudflare%20Workers-ready-f38020?style=flat-square" alt="Cloudflare Workers ready"></a>
+  <a href="https://theworker02.github.io/lattice/"><img src="https://img.shields.io/badge/GitHub%20Pages-static%20site-222?style=flat-square&logo=github" alt="GitHub Pages static site"></a>
 </p>
 
 <p align="center"><strong>MIRRORFIELD / 0.5</strong> · An experimental modular physical computing platform</p>
@@ -17,7 +17,7 @@ The central product is now the **LATTICE Signal Cube**: a cube-shaped sensor and
 
 **New to the project?** Begin with [Start Here](START_HERE.md). It explains the idea without requiring an engineering background, shows what is real today, and points manufacturers to the right pilot documents.
 
-The official LATTICE mirrored-facet mark, wordmark, monochrome mark and favicon are in the [brand kit](brand/README.md). The website, Patchboard and Cloudflare bundle all use the same official mark.
+The official LATTICE mirrored-facet mark, wordmark, monochrome mark and favicon are in the [brand kit](brand/README.md). The website, Patchboard and GitHub Pages release all use the same official mark.
 
 Try the cube by choosing a sensor and destination, applying the route, then sending samples or starting its one-second stream. Adjust the simulated reading or temporarily disable the destination to inspect buffering and expiry. This software demonstration has no physical sensor or external network connection. It runs independently of the MIRRORFIELD array below it.
 
@@ -87,7 +87,6 @@ LATTICE is organized as a build-and-evidence system, not only a web demonstrator
 | `operations/` | Supervised pilot demonstration and data-stewardship rules |
 | `schemas/` | Machine-readable module passport contract |
 | `tools/` | CAD/artifact verification utilities |
-| `workers/` | Static-first Cloudflare Worker and public response policy |
 
 Every physical folder begins at **CONCEPT** until it gains reviewed drawings, selected materials, identified assemblies and test evidence. The [M1 Pilot Program](manufacturing/M1-PILOT-PROGRAM.md) connects those areas into the first manufacturer-facing build.
 
@@ -101,9 +100,9 @@ python -m http.server 4173 --bind 127.0.0.1
 
 Open [MIRRORFIELD Observatory](http://127.0.0.1:4173/mirrorfield.html). The [original editable patchboard](http://127.0.0.1:4173/index.html) remains available, including its existing local saves and v1 JSON format. Stop the server with Ctrl+C. Use HTTP on localhost; direct file loading does not reliably support native modules.
 
-## Cloudflare Workers
+## GitHub Pages
 
-The public portal is prepared for static-first Cloudflare Workers deployment. It serves only the website and public project documents; simulations remain in each visitor’s browser local storage. Read [Cloudflare Workers deployment](docs/CLOUDFLARE_WORKERS.md) and the [public deployment checklist](docs/PUBLISH_CHECKLIST.md) before deploying. The deployment is not performed by this repository or automatically during a build.
+The public portal is a static GitHub Pages site. It serves the website and public project documents; simulations remain in each visitor’s browser local storage. GitHub Pages publishes Mirrorfield at the repository root and keeps the original Patchboard at `/patchboard.html`. Read [GitHub Pages deployment](docs/GITHUB_PAGES.md) and the [public deployment checklist](docs/PUBLISH_CHECKLIST.md) before publishing. GitHub Pages must be enabled once in the repository settings by an administrator.
 
 ## Portal and guided experiments
 

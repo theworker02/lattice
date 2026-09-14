@@ -1,5 +1,12 @@
 # Changelog
 
+## GitHub Pages migration — 2026-09-13
+
+- Replaced the Cloudflare Worker deployment path with a GitHub Actions GitHub Pages workflow.
+- Added a Pages artifact builder that publishes Mirrorfield at the project URL and preserves Patchboard at `/patchboard.html`.
+- Added GitHub Pages setup, verification, publishing and rollback instructions.
+- Removed four Worker-only regression tests; 44 browser-local simulation and routing tests remain.
+
 ## GitHub README presentation — 2026-09-13
 
 - Added a light-background official wordmark so the LATTICE identity remains visible on GitHub.
