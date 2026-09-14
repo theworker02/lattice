@@ -1,5 +1,9 @@
 # Changelog
 
+## Repository governance — 2026-09-13
+
+- Added a pull-request template and public governance policy covering protected main history, verification, maturity labels and evidence-backed hardware claims.
+
 ## E1 realization package — 2026-09-13
 
 - Added a deterministic simulated CAN-FD A0 transport/discovery reference with bounded frames, UUID collision protection, declared-port checks and stale-health expiry.

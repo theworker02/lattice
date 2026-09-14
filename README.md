@@ -108,6 +108,10 @@ The public portal is a static GitHub Pages site. It serves the website and publi
 
 The project now has an explicit [physical realization plan](docs/REALIZATION_PLAN.md): a simulated CAN-FD discovery reference, E1 power/PCB/firmware handoff boundaries, a heliotropic-cell mechanism brief, SolarSkin coupon protocol, and an M1 cost/RFQ structure. It gives a manufacturer or engineering partner a sequence of evidence gates instead of asking them to infer missing work from a rendering.
 
+## Contribution and governance
+
+Changes to `main` are protected and reviewed through pull requests. The [contribution guide](CONTRIBUTING.md) explains how to participate; [repository governance](docs/REPOSITORY_GOVERNANCE.md) defines the evidence and review rules that keep public engineering claims trustworthy.
+
 ## Portal and guided experiments
 
 The portal explains LATTICE and the light → collection → decision → motion workflow before the workbench. Module families use consistent colors alongside text labels. Select any module for a description of its role; detailed signal provenance remains available in an expandable trail.
