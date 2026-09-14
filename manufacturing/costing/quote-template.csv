@@ -1,0 +1,6 @@
+category,quantity,unit_cost,currency,non_recurring_cost,assembly_hours,test_hours,lead_days,source,quote_date,assumptions,status
+M0 visual samples,16,,,,,,,,,Request separate enclosure and finish estimates,CONCEPT
+M1 optical coupons,4,,,,,,,,,Separate optical metrology from coupon pricing,CONCEPT
+E1 electronics,4,,,,,,,,,Exclude unreviewed battery assembly,CONCEPT
+ME1 integrated array,1,,,,,,,,,Include rework allowance and fixtures,CONCEPT
+P1 manufacturer pilot,1,,,,,,,,,Tooling ownership and MOQ required,CONCEPT

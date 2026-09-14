@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/svg+xml" href="brand/favicon.svg">
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark"><title>LATTICE · Patchboard / 0.5</title>
+  <link rel="stylesheet" href="./src/style.css"><link rel="stylesheet" href="./src/incidents.css">
+</head>
+<body>
+  <header><a class="brand" href="./"><img class="mark" src="brand/lattice-mark.svg" alt=""> LATTICE <span class="subbrand">/ Patchboard</span></a><a href="mirrorfield.html" style="font-size:12px;color:#b8ccde">MIRRORFIELD / 0.5 ↗</a><span class="simulation">SIMULATED</span><button id="export">Export patch</button><button id="import">Import</button><input id="file" type="file" accept=".json" hidden></header>
+  <main>
+    <aside class="library"><div class="eyebrow">WORKBENCH 01</div><h2>Module library</h2><p class="muted">Building blocks for physical ideas.</p><div id="catalog"></div><div class="library-note"><span class="dot"></span> Local simulation<br><small>No hardware connected. All readings are simulated.</small></div></aside>
+    <section class="workspace">
+      <div class="title-row"><div><div class="eyebrow">LATTICE PATCHBOARD</div><h1>Sunlight to motion</h1><p class="muted">Sense the world. Wire a response.</p></div><button id="demo">Load example</button></div>
+      <div class="toolbar"><button id="play" class="primary">Pause</button><button id="step">Step +0.1s</button><button id="reset">Reset clock</button><span id="clock">00:00.0</span><span class="legend"><i></i> Signal <i class="power"></i> Power</span></div>
+      <div class="board-scroll"><div id="board" aria-label="Virtual module patchboard"><svg id="wires" aria-hidden="true"></svg><div id="modules"></div><div class="board-label">LATTICE<span>VIRTUAL PATCHBOARD / A0</span></div></div></div>
+      <div class="environment"><div><span class="eyebrow">ENVIRONMENT INPUT</span><h3>Sunlight <output id="sun-value">82%</output></h3></div><input id="sun" aria-label="Sunlight" type="range" min="0" max="100" value="82"><div><strong id="generation">32.8 W</strong><small>Available generation</small></div><div><strong id="energy">0.000 Wh</strong><small>Generated energy</small></div></div>
+      <section class="connections"><div class="section-heading"><h2>Connections</h2><span class="muted">Explicit ports. Separate power and information.</span></div><form id="connect"><select id="kind" aria-label="Connection kind"><option value="signal">Signal</option><option value="power">Power</option></select><select id="from" aria-label="Source port"></select><span>→</span><select id="to" aria-label="Destination port"></select><button type="submit">Connect</button></form><div id="connection-list"></div></section>
+    </section>
+    <aside class="inspector"><div class="eyebrow">LATTICE SCOPE</div><h2 id="inspect-title">Solar input</h2><div id="inspect-meta" class="muted"></div><div id="reading"></div><svg id="scope" viewBox="0 0 260 95" role="img" aria-label="Recent signal values"></svg><div id="settings"></div><div class="section-heading"><h3>Discovery</h3><span class="tag">VIRTUAL</span></div><pre id="discovery"></pre><button id="remove" class="danger">Remove module</button><div class="section-heading"><h3>Event stream</h3><span id="event-count"></span></div><div id="events" aria-live="off"></div></aside>
+  </main>
+  <footer><span id="save-status">Saved on this device</span><span>LSP draft 0.5 · MIRRORFIELD / 0.5</span></footer><div id="notice" role="status" hidden></div>
+  <script type="module" src="./src/app.mjs"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="220" viewBox="0 0 920 220" role="img" aria-labelledby="title desc">
+  <title id="title">LATTICE wordmark</title>
+  <desc id="desc">LATTICE mirrored-facet mark with the words LATTICE Physical Computing Fabric.</desc>
+  <g transform="translate(28 30) scale(1.6)">
+    <path fill="#8495a4" d="M50 3 64 15 50 27 36 15Z M50 73 64 85 50 97 36 85Z M3 50 17 36 31 50 17 64Z M69 50 83 36 97 50 83 64Z"/>
+    <path fill="#dce5ea" d="m50 29 19 11v21L50 72 31 61V40Z"/><path fill="#92a3b1" d="m50 29 19 11-19 11-19-11Z"/><path fill="#465563" d="m50 51 19-11v21L50 72Z"/><path fill="#e4ebee" d="M31 40 50 51v21L31 61Z"/>
+  </g>
+  <text x="230" y="104" fill="#e4ebee" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" letter-spacing="13">LATTICE</text>
+  <text x="236" y="151" fill="#92a3b1" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" letter-spacing="5">PHYSICAL COMPUTING FABRIC</text>
+</svg>

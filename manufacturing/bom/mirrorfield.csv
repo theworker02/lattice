@@ -1,0 +1,17 @@
+item,description,qty_per_16_cell_array,unit,part_number,supplier,unit_cost,currency,quote_date,status,notes
+M01,M0 chassis,16,each,,,,,,CONCEPT,80x80x24 mm static envelope
+M02,Optical cover envelope,16,each,,,,,,CONCEPT,1.2 mm envelope not selected optical thickness
+O01,SolarSkin PV coupon,4,each,,,,,,CONCEPT,Usable aperture and stack not selected
+O02,Mirror optical coupon,3,each,,,,,,CONCEPT,No specified coating
+O03,Optical vector sensor assembly,1,each,,,,,,CONCEPT,Needs direction and spectral calibration
+S01,Temperature sensor assembly,2,each,,,,,,CONCEPT,Additional power hotspot sensors to be defined
+E01,Energy controller PCB assembly,1,each,,,,,,CONCEPT,Charger conversion and protected distribution unbuilt
+E02,Protected battery assembly,1,each,,,,,,CONCEPT,Chemistry capacity and charger TBD
+L01,Logic controller assembly,1,each,,,,,,CONCEPT,MCU and watchdog not selected
+C01,Fusion controller assembly,1,each,,,,,,CONCEPT,May consolidate with logic
+B01,Bridge assembly,1,each,,,,,,CONCEPT,Transport not selected
+A01,Low-power motor assembly,1,each,,,,,,CONCEPT,Current and motion envelope TBD
+H01,Heliotropic mechanisms,3,each,,,,,,CONCEPT,Not included in CAD
+I01,Edge guide and LED assembly,16,each,,,,,,CONCEPT,Optical isolation and budget TBD
+K01,Rated connector set,16,set,,,,,,CONCEPT,Magnetic alignment separate from contacts
+T01,Thermal interface set,16,set,,,,,,CONCEPT,Electrical insulation required

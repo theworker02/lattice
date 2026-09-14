@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:lattice:module-passport:0.5.0",
+  "title": "LATTICE module passport 0.5.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version","uid","serial","family","type","hardware_revision","firmware","status","inputs","outputs","power","transport"],
+  "properties": {
+    "schema_version": {"const":"0.5.0"},
+    "uid": {"type":"string","pattern":"^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-4[0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}$"},
+    "serial": {"type":"string","minLength":1,"maxLength":64},
+    "family": {"enum":["sense","logic","energy","motion","control","compute","optical","bridge"]},
+    "type": {"enum":["solarskin","mirror","vector","temperature","energy","battery","logic","motor","fusion","bridge"]},
+    "hardware_revision": {"type":"string","minLength":1,"maxLength":64},
+    "firmware": {"type":"string","minLength":1,"maxLength":64},
+    "status": {"enum":["CONCEPT","SIMULATED","ENGINEERED","PROTOTYPED","VALIDATED","PRODUCTION CANDIDATE"]},
+    "inputs": {"$ref":"#/$defs/ports"},
+    "outputs": {"$ref":"#/$defs/ports"},
+    "transport": {"enum":["virtual","latticelink"]},
+    "power": {"type":"object","additionalProperties":false,"required":["nominal_voltage","maximum_current_ma","safe_state"],"properties":{"nominal_voltage":{"type":"number","exclusiveMinimum":0,"maximum":60},"maximum_current_ma":{"type":"number","exclusiveMinimum":0,"maximum":10000},"safe_state":{"const":"OFF"}}}
+  },
+  "$defs":{"ports":{"type":"array","maxItems":32,"uniqueItems":true,"items":{"type":"string","pattern":"^[a-z][a-z0-9_]{0,31}$"}}},
+  "allOf": [
+    {"if":{"properties":{"type":{"enum":["solarskin","mirror"]}}},"then":{"properties":{"family":{"const":"optical"}}}},
+    {"if":{"properties":{"type":{"enum":["vector","temperature"]}}},"then":{"properties":{"family":{"const":"sense"}}}},
+    {"if":{"properties":{"type":{"enum":["energy","battery"]}}},"then":{"properties":{"family":{"const":"energy"}}}},
+    {"if":{"properties":{"type":{"const":"logic"}}},"then":{"properties":{"family":{"const":"logic"}}}},
+    {"if":{"properties":{"type":{"const":"motor"}}},"then":{"properties":{"family":{"const":"motion"}}}},
+    {"if":{"properties":{"type":{"const":"fusion"}}},"then":{"properties":{"family":{"const":"compute"}}}},
+    {"if":{"properties":{"type":{"const":"bridge"}}},"then":{"properties":{"family":{"const":"bridge"}}}}
+  ]
+}

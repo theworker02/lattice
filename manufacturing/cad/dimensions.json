@@ -1,0 +1,10 @@
+{
+  "width_mm": 80,
+  "depth_mm": 80,
+  "chassis_height_mm": 24,
+  "wall_mm": 2,
+  "floor_mm": 2,
+  "lid_thickness_mm": 1.2,
+  "pitch_mm": 86,
+  "corner_key_mm": 6
+}

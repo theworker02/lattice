@@ -1,0 +1,17 @@
+item,assembly,description,quantity_per_cube,status,selection_or_test_required
+SC01,Exterior,Scale geometry matching approved image,CAD controlled,CONCEPT,All faces and corners must be modeled
+SC02,Exterior,Reflective-only S-R cassettes,CAD controlled,CONCEPT,Finish edge safety retention cleaning
+SC03,Surface sensing,S-L light-sensor cassette,3,CONCEPT,Partial-transmission stack sensor baffle flex calibration
+SC04,Surface energy,S-P photovoltaic cassette,1,CONCEPT,PV coupon coating I-V measurement insulation heat path
+SC05,Surface sensing,S-T contact-temperature cassette,2,CONCEPT,Insulated attachment and thermal lag
+SC06,Structure,Removable face carrier set,1,CONCEPT,Retention service access tolerance study
+SC07,Structure,Central internal chassis and band,1,CONCEPT,Board mounts thermal isolation connector loads
+SC08,Core,Main controller and memory PCB assembly,1,CONCEPT,MCU watchdog sensor buses firmware programming
+SC09,Core,Protected power and interface PCB assembly,1,CONCEPT,Input protection rails voltage current sensing
+SC10,Core,PV conditioning input circuit,1,CONCEPT,Separate from sensor inputs and main supply
+SC11,Core,Band sensor and indicator PCB assembly,1,CONCEPT,Receiver emitter optical baffles LED current budget
+SC12,Interconnect,Surface-to-core flex harness set,1,CONCEPT,Bend radius strain relief labeled connectors
+SC13,Core,Recessed wired host and power interface,1,CONCEPT,USB proposed connector ratings and protocol pending
+SC14,Core,Internal board and chassis temperature sensing,1 set,CONCEPT,Channel mapping isolation and calibration
+SC15,Assembly,Captive fasteners isolation and thermal interface kit,1,CONCEPT,No conductive scales used as power contacts
+SC16,Power,External constrained low-voltage source,1,CONCEPT,No battery included in initial architecture

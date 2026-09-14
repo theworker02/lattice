@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="880" viewBox="0 0 1400 880" role="img" aria-labelledby="title desc">
+  <title id="title">SolarSkin proposed functional mirror-scale stack</title>
+  <desc id="desc">A proposed cross section from incoming light through protective layer, semi-reflective optical stack, window and baffle, sensor or photovoltaic cassette, thermal interface, carrier and central core connection.</desc>
+  <defs>
+    <linearGradient id="mirror" x1="0" x2="1"><stop stop-color="#253946"/><stop offset=".46" stop-color="#cfe0e8"/><stop offset=".7" stop-color="#536f7d"/><stop offset="1" stop-color="#dceaf0"/></linearGradient>
+    <linearGradient id="pv" x1="0" x2="1"><stop stop-color="#15375e"/><stop offset=".55" stop-color="#49a5c1"/><stop offset="1" stop-color="#0d2343"/></linearGradient>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 9 4.5 0 9z" fill="#d8b780"/></marker>
+    <marker id="blue-arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 9 4.5 0 9z" fill="#8ed8d0"/></marker>
+  </defs>
+  <rect width="1400" height="880" fill="#0f1922"/>
+  <text x="82" y="80" fill="#e9f3f5" font-family="Arial, sans-serif" font-size="32" font-weight="600">SOLARSKIN / PROPOSED FUNCTIONAL SCALE</text>
+  <text x="82" y="115" fill="#aabec9" font-family="Arial, sans-serif" font-size="17">One scale, several possible jobs. The selected optical stack decides which job is physically possible.</text>
+  <g font-family="Arial, sans-serif">
+    <text x="85" y="184" fill="#d8b780" font-size="15" letter-spacing="2">INCOMING LIGHT</text>
+    <path d="M210 205V272" stroke="#d8b780" stroke-width="5" marker-end="url(#arrow)"/>
+    <path d="M240 205V272" stroke="#d8b780" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M180 205V272" stroke="#d8b780" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="90" y="280" width="670" height="54" rx="7" fill="#dce8ed"/>
+    <text x="118" y="314" fill="#13232c" font-size="20" font-weight="600">1 · PROTECTIVE TOP LAYER</text>
+    <text x="792" y="314" fill="#b9cbd4" font-size="16">Scratch / cleaning / UV questions remain open</text>
+    <rect x="90" y="342" width="670" height="70" rx="7" fill="url(#mirror)"/>
+    <text x="118" y="385" fill="#10222c" font-size="20" font-weight="600">2 · MIRROR FINISH OR CONTROLLED OPTICAL WINDOW</text>
+    <text x="792" y="385" fill="#b9cbd4" font-size="16">Reflective-only scale, concealed aperture, or partly transmitting stack</text>
+    <rect x="90" y="420" width="670" height="56" rx="7" fill="#111c23" stroke="#47707b"/>
+    <text x="118" y="455" fill="#d5eaee" font-size="20" font-weight="600">3 · LIGHT WELL + BAFFLE</text>
+    <text x="792" y="455" fill="#b9cbd4" font-size="16">Stops status lighting and sideways reflections corrupting a measurement</text>
+    <rect x="90" y="484" width="325" height="104" rx="7" fill="#183442" stroke="#6bcbbe"/>
+    <text x="117" y="525" fill="#d7f2ed" font-size="20" font-weight="600">4A · S-L LIGHT</text>
+    <text x="117" y="554" fill="#a9cbc8" font-size="15">Photodiode / ambient sensor</text>
+    <path d="M252 412V480" stroke="#8ed8d0" stroke-width="4" marker-end="url(#blue-arrow)"/>
+    <rect x="435" y="484" width="325" height="104" rx="7" fill="url(#pv)" stroke="#6bcbbe"/>
+    <text x="462" y="525" fill="#efffff" font-size="20" font-weight="600">4B · S-P PV</text>
+    <text x="462" y="554" fill="#c3e7ec" font-size="15">PV coupon + separate power input</text>
+    <path d="M595 412V480" stroke="#8ed8d0" stroke-width="4" marker-end="url(#blue-arrow)"/>
+    <rect x="90" y="596" width="670" height="54" rx="7" fill="#42525a"/>
+    <text x="118" y="630" fill="#f2f5f6" font-size="20" font-weight="600">5 · INSULATION + THERMAL INTERFACE</text>
+    <text x="792" y="630" fill="#b9cbd4" font-size="16">PV and temperature paths must not create conductive shortcuts</text>
+    <rect x="90" y="658" width="670" height="54" rx="7" fill="#253640"/>
+    <text x="118" y="692" fill="#e2eef2" font-size="20" font-weight="600">6 · REMOVABLE CARRIER + LABELED FLEX</text>
+    <text x="792" y="692" fill="#b9cbd4" font-size="16">Mechanical retention, strain relief and serviceability</text>
+    <rect x="90" y="720" width="670" height="74" rx="7" fill="#121d27" stroke="#6a8795" stroke-width="2"/>
+    <text x="118" y="755" fill="#a7dfd2" font-size="16" letter-spacing="1">CENTRAL CORE CONNECTION</text>
+    <text x="118" y="780" fill="#e9f3f5" font-size="19" font-weight="600">Sensor interface · PV conditioning · health + diagnostics</text>
+    <g transform="translate(945 160)">
+      <rect width="350" height="144" rx="10" fill="#162632" stroke="#3d6974"/>
+      <text x="27" y="38" fill="#a7dfd2" font-size="15" letter-spacing="1">LIGHT BUDGET</text>
+      <text x="27" y="76" fill="#ebf4f6" font-size="19" font-weight="600">Incoming light has to go somewhere.</text>
+      <text x="27" y="108" fill="#b8ccd4" font-size="15">Reflection + transmission + absorption = incoming energy</text>
+    </g>
+    <g transform="translate(945 330)">
+      <rect width="350" height="168" rx="10" fill="#162632" stroke="#3d6974"/>
+      <text x="27" y="38" fill="#d8b780" font-size="15" letter-spacing="1">THREE HONEST MODES</text>
+      <text x="27" y="74" fill="#e9f3f5" font-size="17" font-weight="600">Reflect</text><text x="145" y="74" fill="#b8ccd4" font-size="15">appearance / redirection</text>
+      <text x="27" y="108" fill="#e9f3f5" font-size="17" font-weight="600">Measure</text><text x="145" y="108" fill="#b8ccd4" font-size="15">light through a known path</text>
+      <text x="27" y="142" fill="#e9f3f5" font-size="17" font-weight="600">Collect</text><text x="145" y="142" fill="#b8ccd4" font-size="15">PV output with heat tradeoffs</text>
+    </g>
+    <g transform="translate(945 525)">
+      <rect width="350" height="210" rx="10" fill="#24191a" stroke="#9b5757"/>
+      <text x="27" y="38" fill="#efb4ad" font-size="15" letter-spacing="1">DO NOT ASSUME</text>
+      <text x="27" y="76" fill="#eed9d6" font-size="16">A fully opaque mirror cannot feed a hidden</text>
+      <text x="27" y="104" fill="#eed9d6" font-size="16">light sensor or PV cell. Every selected stack</text>
+      <text x="27" y="132" fill="#eed9d6" font-size="16">needs a measured optical path and a defined</text>
+      <text x="27" y="160" fill="#eed9d6" font-size="16">thermal / electrical boundary.</text>
+      <text x="27" y="191" fill="#efb4ad" font-size="14">CONCEPT — no final material selected</text>
+    </g>
+  </g>
+</svg>

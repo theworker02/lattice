@@ -1,0 +1,3 @@
+# Lighting — CONCEPT hardware / SIMULATED software budget
+
+Keep light guides recessed and baffle them from ambient/spectral sensors. Event mode highlights cells whose recorded signals change; continuous mode is opt-in. Text and scope remain usable with lights off. The simulator budgets 160 mW for the full array continuous mode and a 10% duty average for events; these are assumptions, not measured duty or LED power. The screen compares adjacent frames rather than simulating individual photons or a calibrated cable animation. Measure current, optical bleed, daylight visibility and sleep leakage in M1/E1.

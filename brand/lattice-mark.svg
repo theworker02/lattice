@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
+  <title id="title">LATTICE mirrored-facet mark</title>
+  <desc id="desc">A central three-dimensional mirrored hexagonal facet surrounded by four smaller diamond facets.</desc>
+  <path fill="#8495a4" d="M50 3 64 15 50 27 36 15Z M50 73 64 85 50 97 36 85Z M3 50 17 36 31 50 17 64Z M69 50 83 36 97 50 83 64Z"/>
+  <path fill="#dce5ea" d="m50 29 19 11v21L50 72 31 61V40Z"/>
+  <path fill="#92a3b1" d="m50 29 19 11-19 11-19-11Z"/>
+  <path fill="#465563" d="m50 51 19-11v21L50 72Z"/>
+  <path fill="#e4ebee" d="M31 40 50 51v21L31 61Z"/>
+</svg>

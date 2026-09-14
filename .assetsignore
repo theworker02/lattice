@@ -1,0 +1,8 @@
+# The Worker module and local/generated development files are not public static assets.
+workers/
+tools/
+tests/
+node_modules/
+.git/
+.wrangler/
+*.map

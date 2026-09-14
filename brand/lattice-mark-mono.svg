@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
+  <title id="title">LATTICE monochrome mark</title>
+  <desc id="desc">A monochrome central facet and four diamond facets for one-color reproduction.</desc>
+  <path fill="currentColor" d="M50 3 64 15 50 27 36 15ZM50 73 64 85 50 97 36 85ZM3 50 17 36 31 50 17 64ZM69 50 83 36 97 50 83 64ZM50 29 69 40v21L50 72 31 61V40Z"/>
+</svg>

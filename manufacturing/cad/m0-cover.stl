@@ -1,0 +1,114 @@
+solid m0-cover
+facet normal 0.000000 0.000000 -1.000000
+ outer loop
+  vertex 0 80 24
+  vertex 74 80 24
+  vertex 80 74 24
+ endloop
+endfacet
+facet normal 0.000000 0.000000 -1.000000
+ outer loop
+  vertex 0 80 24
+  vertex 80 74 24
+  vertex 80 0 24
+ endloop
+endfacet
+facet normal 0.000000 0.000000 -1.000000
+ outer loop
+  vertex 0 80 24
+  vertex 80 0 24
+  vertex 0 0 24
+ endloop
+endfacet
+facet normal 0.000000 0.000000 1.000000
+ outer loop
+  vertex 0 0 25.2
+  vertex 80 0 25.2
+  vertex 80 74 25.2
+ endloop
+endfacet
+facet normal 0.000000 0.000000 1.000000
+ outer loop
+  vertex 0 0 25.2
+  vertex 80 74 25.2
+  vertex 74 80 25.2
+ endloop
+endfacet
+facet normal 0.000000 0.000000 1.000000
+ outer loop
+  vertex 0 0 25.2
+  vertex 74 80 25.2
+  vertex 0 80 25.2
+ endloop
+endfacet
+facet normal 0.000000 -1.000000 0.000000
+ outer loop
+  vertex 0 0 24
+  vertex 80 0 24
+  vertex 80 0 25.2
+ endloop
+endfacet
+facet normal 0.000000 -1.000000 0.000000
+ outer loop
+  vertex 0 0 24
+  vertex 80 0 25.2
+  vertex 0 0 25.2
+ endloop
+endfacet
+facet normal 1.000000 0.000000 0.000000
+ outer loop
+  vertex 80 0 24
+  vertex 80 74 24
+  vertex 80 74 25.2
+ endloop
+endfacet
+facet normal 1.000000 0.000000 0.000000
+ outer loop
+  vertex 80 0 24
+  vertex 80 74 25.2
+  vertex 80 0 25.2
+ endloop
+endfacet
+facet normal 0.707107 0.707107 0.000000
+ outer loop
+  vertex 80 74 24
+  vertex 74 80 24
+  vertex 74 80 25.2
+ endloop
+endfacet
+facet normal 0.707107 0.707107 0.000000
+ outer loop
+  vertex 80 74 24
+  vertex 74 80 25.2
+  vertex 80 74 25.2
+ endloop
+endfacet
+facet normal 0.000000 1.000000 0.000000
+ outer loop
+  vertex 74 80 24
+  vertex 0 80 24
+  vertex 0 80 25.2
+ endloop
+endfacet
+facet normal 0.000000 1.000000 0.000000
+ outer loop
+  vertex 74 80 24
+  vertex 0 80 25.2
+  vertex 74 80 25.2
+ endloop
+endfacet
+facet normal -1.000000 0.000000 0.000000
+ outer loop
+  vertex 0 80 24
+  vertex 0 0 24
+  vertex 0 0 25.2
+ endloop
+endfacet
+facet normal -1.000000 0.000000 0.000000
+ outer loop
+  vertex 0 80 24
+  vertex 0 0 25.2
+  vertex 0 80 25.2
+ endloop
+endfacet
+endsolid m0-cover
