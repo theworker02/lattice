@@ -2,6 +2,15 @@
 
 Status: **SIMULATED** software; **CONCEPT** hardware.
 
+## E1 realization package — 2026-09-13
+
+- `node --test tests/*.test.mjs`: 47 tests passed, including three CAN-FD A0 reference tests for 64-byte frame bounds, duplicate-identity rejection, declared-port enforcement and stale-health expiry.
+- `node --check src/latticelink.mjs` and `node --check src/product-story.mjs`: passed.
+- `python tools/verify-artifacts.py`: preliminary meshes, HTML/script/assets, 370 local Markdown links and the passport schema passed checks.
+- `node tools/build-github-pages.mjs`: Pages artifact built successfully, including the new E1 realization content.
+
+The CAN-FD reference is a deterministic browser/Node model only. It does not validate a target MCU driver, CAN transceiver, wiring, electrical protection, connector, firmware image, physical discovery or deployed hardware.
+
 Baseline before this upgrade: 11 existing engine tests passed. No pre-existing failures were observed.
 
 Completed checks:

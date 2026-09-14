@@ -12,18 +12,18 @@ Each entry carries one status. Hardware and its software model are separate entr
 | M0 envelope CAD / dimensions / renders | CONCEPT | manufacturing/cad, drawings, renders |
 | LatticeLink electrical interface / independent fusing | CONCEPT | docs/LATTICELINK.md, POWER_ARCHITECTURE.md |
 | Branch power-negotiation model | SIMULATED | PowerBranch tests and motor interlock |
-| LSP physical transport | CONCEPT | No CAN, wiring or deployment adapter |
+| LSP/CAN-FD A0 transport reference | SIMULATED | Bounded frame, discovery and stale-health model with deterministic tests; no MCU driver, transceiver or physical bus |
 | LSP values / provenance / priority model | SIMULATED | engine, Twin trace, arbitration tests |
 | Passports and virtual topology | SIMULATED | JSON Schema, runtime validator, UUIDs and derived links |
-| Physical discovery and synchronized hardware Twin | CONCEPT | Explicit future transport boundary |
+| Physical discovery model | SIMULATED | UUID collision, HELLO/passport announcement and TTL expiry model; no fabricated cable discovery |
 | Local digital Twin / history / causal replay | SIMULATED | 600-frame recorder and event-to-frame evidence |
 | Patchboard and Mirrorfield Observatory | SIMULATED | Browser application, retained editable legacy graph |
 | SolarSkin optical budget / ray experiment | SIMULATED | Conservation and routing tests; hypothetical parameters |
 | Semi-reflective PV / routing hardware | CONCEPT | Coupon plan and RFE |
 | Heliotropic orientation model | SIMULATED | Incidence and rate-limited tilt/rotation |
-| Heliotropic mechanism / neighbor collision / glare control | CONCEPT | No motion CAD or physical actuation |
+| Heliotropic mechanism / neighbor collision / glare control | CONCEPT | Single-cell mechanism brief; no motion CAD or physical actuation |
 | Light-vector and deterministic fusion | SIMULATED | Virtual intensity/direction; CCT/UV/IR unavailable |
-| Spectral/UV sensor hardware | CONCEPT | Candidate research, calibration needed |
+| Spectral/UV sensor hardware | CONCEPT | Candidate research and coupon/calibration protocol; CCT/UV/IR remain unavailable pending selected hardware and measurement |
 | LatticeLight codec and diagnostic loopback | SIMULATED | CRC/Manchester framing and blocked-path tests |
 | Physical optical communication | CONCEPT | No emitter/receiver driver or analog link budget |
 | Edge-light and energy display / budget | SIMULATED | Off/event/continuous assumptions and numeric flows |
@@ -35,7 +35,7 @@ Each entry carries one status. Hardware and its software model are separate entr
 | Actuator safe states / fault injection / sandbox | SIMULATED | Priority and isolation tests; no physical deploy |
 | Bridge physical interfaces and internet providers | CONCEPT | Diagnostic-only loopback; no fake API integrations |
 | Environmental tests / durability / anti-glare | CONCEPT | TEST_PLAN.md and material matrix |
-| Manufacturing BOM / DFM / supplier costing | CONCEPT | Frameworks with unquoted costs |
+| Manufacturing BOM / DFM / supplier costing | CONCEPT | Frameworks, RFQ fields and M1 cost model; no supplier quote or production cost |
 | Engineering request / decisions / roadmap | CONCEPT | RFE-0001, decisions/, ROADMAP.md |
 
 Release definition: executable simulator and reviewable design foundation, not physical realization of all proposed modules. See test results in [verification](VERIFICATION.md). Open engineering questions remain visible in the RFE and decisions; none are silently counted as validated features.

@@ -1,5 +1,11 @@
 # Changelog
 
+## E1 realization package — 2026-09-13
+
+- Added a deterministic simulated CAN-FD A0 transport/discovery reference with bounded frames, UUID collision protection, declared-port checks and stale-health expiry.
+- Added E1 electrical/PCB and firmware handoff boundaries, a heliotropic-cell mechanism brief, SolarSkin coupon protocol, M1 cost model and a cross-discipline realization plan.
+- Added the E1 realization lane to the Mirrorfield portal and refined the public evidence boundary around partner-led physical validation.
+
 ## GitHub Pages migration — 2026-09-13
 
 - Replaced the Cloudflare Worker deployment path with a GitHub Actions GitHub Pages workflow.

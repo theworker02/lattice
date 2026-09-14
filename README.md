@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="docs/STATUS.md"><img src="https://img.shields.io/badge/status-simulated-516f82?style=flat-square" alt="Status: simulated"></a>
-  <a href="docs/VERIFICATION.md"><img src="https://img.shields.io/badge/tests-44%20passing-2f7a6f?style=flat-square" alt="44 tests passing"></a>
+  <a href="docs/VERIFICATION.md"><img src="https://img.shields.io/badge/tests-47%20passing-2f7a6f?style=flat-square" alt="47 tests passing"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-5865a8?style=flat-square" alt="License: MIT"></a>
   <a href="https://theworker02.github.io/lattice/"><img src="https://img.shields.io/badge/GitHub%20Pages-static%20site-222?style=flat-square&logo=github" alt="GitHub Pages static site"></a>
 </p>
@@ -104,6 +104,10 @@ Open [MIRRORFIELD Observatory](http://127.0.0.1:4173/mirrorfield.html). The [ori
 
 The public portal is a static GitHub Pages site. It serves the website and public project documents; simulations remain in each visitor’s browser local storage. GitHub Pages publishes Mirrorfield at the repository root and keeps the original Patchboard at `/patchboard.html`. Read [GitHub Pages deployment](docs/GITHUB_PAGES.md) and the [public deployment checklist](docs/PUBLISH_CHECKLIST.md) before publishing. GitHub Pages must be enabled once in the repository settings by an administrator.
 
+## From simulation to physical product
+
+The project now has an explicit [physical realization plan](docs/REALIZATION_PLAN.md): a simulated CAN-FD discovery reference, E1 power/PCB/firmware handoff boundaries, a heliotropic-cell mechanism brief, SolarSkin coupon protocol, and an M1 cost/RFQ structure. It gives a manufacturer or engineering partner a sequence of evidence gates instead of asking them to infer missing work from a rendering.
+
 ## Portal and guided experiments
 
 The portal explains LATTICE and the light → collection → decision → motion workflow before the workbench. Module families use consistent colors alongside text labels. Select any module for a description of its role; detailed signal provenance remains available in an expandable trail.
@@ -160,6 +164,6 @@ The software uses native ECMAScript modules and zero external runtime dependenci
 
 ![M0 array CAD render](manufacturing/renders/m0-array.svg)
 
-## Limits
+## Current evidence boundary
 
-No physical discovery/deployment, CAN driver, network integration, PCB, motion mechanism, optical material selection or measured SolarSkin stack exists. CCT/UV/IR are unknown. The thermal model, efficiency, recapture, battery and lighting parameters are assumptions; full electronics and tracking-energy budgets are incomplete. Geometry is an M0 envelope, not production CAD. Manufacturing costs are unquoted. [Status register](docs/STATUS.md) separates every implemented model from future hardware.
+The browser-local simulator, CAN-FD discovery reference, protocol tests and engineering package are implemented. The physical product remains partner-led: exact materials, boards, connector ratings, motion hardware, calibrated spectral channels, production CAD and commercial quotes need measured or supplier-controlled evidence before they can advance. [Realization plan](docs/REALIZATION_PLAN.md), [status register](docs/STATUS.md) and [verification record](docs/VERIFICATION.md) show the owner and acceptance gate for each item.
