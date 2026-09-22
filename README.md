@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <img src="brand/lattice-wordmark-github.svg" alt="LATTICE â€” Physical Computing Fabric" width="680">
 </p>
 
@@ -175,3 +175,10 @@ The browser-local simulator, CAN-FD discovery reference, protocol tests and engi
 ## License
 
 **Source-available proprietary** — evaluation under [LICENSE](./LICENSE); commercial / production use via [COMMERCIAL.md](./COMMERCIAL.md). See [LICENSE_TRANSITION_NOTICE.md](./LICENSE_TRANSITION_NOTICE.md).
+
+
+---
+
+## License & acquisition
+
+This project is **proprietary**. Production use, redistribution, and commercial deployment require a written commercial license or completed acquisition. See [LICENSE](./LICENSE) and [ACQUISITION.md](./ACQUISITION.md). Contact [@theworker02](https://github.com/theworker02).
