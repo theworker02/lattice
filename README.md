@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="brand/lattice-wordmark-github.svg" alt="LATTICE â€” Physical Computing Fabric" width="680">
+  <img src="brand/lattice-wordmark-github.svg" alt="LATTICE Ã¢â‚¬â€ Physical Computing Fabric" width="680">
 </p>
 
 <p align="center">
@@ -9,7 +9,7 @@
   <a href="https://theworker02.github.io/lattice/"><img src="https://img.shields.io/badge/GitHub%20Pages-static%20site-222?style=flat-square&logo=github" alt="GitHub Pages static site"></a>
 </p>
 
-<p align="center"><strong>MIRRORFIELD / 0.5</strong> Â· An experimental modular physical computing platform</p>
+<p align="center"><strong>MIRRORFIELD / 0.5</strong> Ã‚Â· An experimental modular physical computing platform</p>
 
 LATTICE explores a different kind of physical product: modules that sense the world, make local decisions, show what they are doing, and pass useful information to another device or piece of software. The first product direction is a mirror-scale Signal Cube, supported by a local simulator, a digital Twin, an engineering plan, and a manufacturer-facing M1 pilot program.
 
@@ -28,8 +28,8 @@ LATTICE explores modular sensing, power, logic, communication and motion. MIRROR
 ## What LATTICE is trying to make
 
 ```text
-Environment â†’ sensor â†’ local logic â†’ typed signal â†’ chosen destination
-                  â†‘                         â†“
+Environment Ã¢â€ â€™ sensor Ã¢â€ â€™ local logic Ã¢â€ â€™ typed signal Ã¢â€ â€™ chosen destination
+                  Ã¢â€ â€˜                         Ã¢â€ â€œ
           functional mirror skin      Twin / Observatory
 ```
 
@@ -39,7 +39,7 @@ The proposed Signal Cube demonstrates that idea in a small form. Most of its out
 
 ## What you can do today
 
-| If you want toâ€¦ | Start here |
+| If you want toÃ¢â‚¬Â¦ | Start here |
 | --- | --- |
 | Understand the project without an engineering background | [Start Here](START_HERE.md) |
 | Try the local Signal Cube and MIRRORFIELD simulation | [Run the portal](#run) |
@@ -51,7 +51,7 @@ The proposed Signal Cube demonstrates that idea in a small form. Most of its out
 
 ## The public promise
 
-LATTICE will distinguish carefully between a concept, a simulation, an engineered drawing, a physical prototype and a validated result. A nice rendering, a good simulator, or a clean website does not prove an optical coating, power circuit, enclosure, sensor or product is ready to manufacture. That distinction is part of the productâ€™s credibility.
+LATTICE will distinguish carefully between a concept, a simulation, an engineered drawing, a physical prototype and a validated result. A nice rendering, a good simulator, or a clean website does not prove an optical coating, power circuit, enclosure, sensor or product is ready to manufacture. That distinction is part of the productÃ¢â‚¬â„¢s credibility.
 
 ## Manufacturing partnership
 
@@ -61,7 +61,7 @@ For a short manufacturing-specific introduction, read [Manufacturer Onboarding](
 
 ## License and brand use
 
-The source and documentation are available under the [MIT License](LICENSE), copyright Â© 2026 Magnexis and [@theworker02](https://github.com/theworker02). LATTICE, MIRRORFIELD, Magnexis and the mirrored-facet identity remain protected as project names and brand assets; read [Trademark and brand use](TRADEMARKS.md) before using them for another product or public identity.
+The source and documentation are available under the [MIT License](LICENSE), copyright Ã‚Â© 2026 Magnexis and [@theworker02](https://github.com/theworker02). LATTICE, MIRRORFIELD, Magnexis and the mirrored-facet identity remain protected as project names and brand assets; read [Trademark and brand use](TRADEMARKS.md) before using them for another product or public identity.
 
 ## Project blueprint
 
@@ -102,7 +102,7 @@ Open [MIRRORFIELD Observatory](http://127.0.0.1:4173/mirrorfield.html). The [ori
 
 ## GitHub Pages
 
-The public portal is a static GitHub Pages site. It serves the website and public project documents; simulations remain in each visitorâ€™s browser local storage. GitHub Pages publishes Mirrorfield at the repository root and keeps the original Patchboard at `/patchboard.html`. Read [GitHub Pages deployment](docs/GITHUB_PAGES.md) and the [public deployment checklist](docs/PUBLISH_CHECKLIST.md) before publishing. GitHub Pages must be enabled once in the repository settings by an administrator.
+The public portal is a static GitHub Pages site. It serves the website and public project documents; simulations remain in each visitorÃ¢â‚¬â„¢s browser local storage. GitHub Pages publishes Mirrorfield at the repository root and keeps the original Patchboard at `/patchboard.html`. Read [GitHub Pages deployment](docs/GITHUB_PAGES.md) and the [public deployment checklist](docs/PUBLISH_CHECKLIST.md) before publishing. GitHub Pages must be enabled once in the repository settings by an administrator.
 
 ## From simulation to physical product
 
@@ -114,7 +114,7 @@ Changes to `main` are protected and reviewed through pull requests. The [contrib
 
 ## Portal and guided experiments
 
-The portal explains LATTICE and the light â†’ collection â†’ decision â†’ motion workflow before the workbench. Module families use consistent colors alongside text labels. Select any module for a description of its role; detailed signal provenance remains available in an expandable trail.
+The portal explains LATTICE and the light Ã¢â€ â€™ collection Ã¢â€ â€™ decision Ã¢â€ â€™ motion workflow before the workbench. Module families use consistent colors alongside text labels. Select any module for a description of its role; detailed signal provenance remains available in an expandable trail.
 
 Three experiment buttons load reproducible sunny, cloudy and highly reflective scenarios. They reset settings and runtime history while preserving module identities. Export first to keep a separate copy of your current settings. A live explanation describes why the motor is running, waiting for power, or stopped by protection. Engineering maturity labels remain in the documentation rather than the portal footer.
 
@@ -128,7 +128,7 @@ Operation errors in both workbenches remain visible until dismissed. This is a l
 
 ## Explore MIRRORFIELD
 
-The 4 Ã— 4 virtual array contains SolarSkin, vector/temperature sensing, mirrored cells, energy controller, battery, logic, fusion, Bridge and motor. Adjust irradiance and sun direction, optical fractions, tracking, power threshold, delay and demand. Inspect the physical array in surface, thermal or power view.
+The 4 Ãƒâ€” 4 virtual array contains SolarSkin, vector/temperature sensing, mirrored cells, energy controller, battery, logic, fusion, Bridge and motor. Adjust irradiance and sun direction, optical fractions, tracking, power threshold, delay and demand. Inspect the physical array in surface, thermal or power view.
 
 - **Collection:** explicit reflection/transmission/absorption and bounded recapture; separate geometric ray experiment.
 - **Energy:** bounded battery charge/discharge, load demand and lighting power accounting.
@@ -137,7 +137,7 @@ The 4 Ã— 4 virtual array contains SolarSkin, vector/temperature sensing, mirr
 - **Twin:** health, causal signal IDs and parent references, 600 retained snapshots, event-to-frame inspection, scope overlays and run export.
 - **Diagnostics:** simulated LatticeLight Manchester/CRC round trip and explicitly virtual Bridge loopback.
 
-Try 900 W/mÂ², tracking enabled, power above 1 W for 2 s and motor demand 1.2 W. After negotiation and the delay the motor runs if supply is sufficient. Inject a motor short: the motor switches off while collection continues. Clear the fault and re-arm. Scrub to the activation event to inspect its recorded causal chain.
+Try 900 W/mÃ‚Â², tracking enabled, power above 1 W for 2 s and motor demand 1.2 W. After negotiation and the delay the motor runs if supply is sufficient. Inject a motor short: the motor switches off while collection continues. Clear the fault and re-arm. Scrub to the activation event to inspect its recorded causal chain.
 
 Each configuration change is recorded. Threshold/delay edits restart rule timing; resetting the run restores configured initial battery charge and clears runtime faults/history. Replaying pauses execution and disables model edits. Return to live before editing. Histories are bounded and are not automatically saved across reloads.
 
@@ -174,7 +174,7 @@ The browser-local simulator, CAN-FD discovery reference, protocol tests and engi
 
 ## License
 
-**Source-available proprietary** — evaluation under [LICENSE](./LICENSE); commercial / production use via [COMMERCIAL.md](./COMMERCIAL.md). See [LICENSE_TRANSITION_NOTICE.md](./LICENSE_TRANSITION_NOTICE.md).
+**Source-available proprietary** â€” evaluation under [LICENSE](./LICENSE); commercial / production use via [COMMERCIAL.md](./COMMERCIAL.md). See [LICENSE_TRANSITION_NOTICE.md](./LICENSE_TRANSITION_NOTICE.md).
 
 
 ---
@@ -182,3 +182,7 @@ The browser-local simulator, CAN-FD discovery reference, protocol tests and engi
 ## License & acquisition
 
 This project is **proprietary**. Production use, redistribution, and commercial deployment require a written commercial license or completed acquisition. See [LICENSE](./LICENSE) and [ACQUISITION.md](./ACQUISITION.md). Contact [@theworker02](https://github.com/theworker02).
+
+## Acquisition diligence
+
+Buyer-facing diligence materials live in [docs/acquisition/](./docs/acquisition/). Commercial licensing contact path: [COMMERCIAL.md](./COMMERCIAL.md).
